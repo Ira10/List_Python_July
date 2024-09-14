@@ -19,3 +19,6 @@ def remove_duplicates(lst):
 
 print(remove_duplicates([1,2,3,4,6,5,1,2,2,8,3,9,10,11,5,6]))  # [1, 2, 3, 4, 6, 5, 8, 9, 10, 11]
 
+Note: This method will not maintain the original order of the list. ['set']
+To maintain the order, you can use a loop or a list comprehension.
+
