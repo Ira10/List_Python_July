@@ -9,7 +9,17 @@ houses_nested_list = [
     [83903.51, 111.0, 3.0],
 ]
 
+# for i in houses_nested_list:
+#     print(i)
+#     for j in i:
+#         print(j)
+
 for i in houses_nested_list:
+    # print(i)
+    i.append(i[0]/i[1])
     print(i)
-    for j in i:
-        print(j)
+    # for j in i:
+    #     print(j)
+#     i.append(i[0]/i[1])
+
+# print(i)
