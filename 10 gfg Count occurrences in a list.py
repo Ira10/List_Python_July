@@ -38,3 +38,14 @@ count__ = [1 for i in L if i == 3]  ### it's okay even if I don't do cnt+1
 print(len(count__))  ##### len is very very important
 print(count__)  ### [1, 1, 1, 1, 1, 1]
 
+
+
+#####    4. Dictionary Comprehension
+
+lis = ['a', 'd', 'd', 'c', 'a', 'b', 'b', 'a', 'c', 'd', 'e']
+occurrence = {item: lis.count(item) for item in lis}
+print(occurrence.get('a'))
+for item in lis:
+    print(item)
+print(occurrence)  # {'a': 3, 'd': 3, 'c': 2, 'b': 2, 'e': 1}
+
