@@ -8,14 +8,14 @@
 L = [12, 67, 98, 34]
 
 new_L =[]
-cnt = 0
 for i in L:
-    print(i)
+    # print(i)
+    cnt = 0
     for j in str(i):
-        print(j)
+        # print(j)
         cnt += int(j)
-        print(cnt)
+        # print(cnt)
 # cnt=0
     new_L.append(cnt)
 
-print(new_L)
+print(new_L)  ## [3, 13, 17, 7]
